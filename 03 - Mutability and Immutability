@@ -1,0 +1,109 @@
+# Before we begin lets learn about✍️ Writing Comments in Python
+# Comments are important to explain what your code is doing.
+# They help others (and your future self!) understand your thoughts.
+
+# 🔸 Ways to write comments:
+# 1. Single line using #:  
+# Example:
+# This is a comment
+
+# 2. Empty arrows (just for visual aid):
+# -------> This section explains power operator
+
+# 3. Multiline comments:
+'''
+This is a multiline comment
+written using triple single quotes.
+'''
+"""
+This is also a multiline comment
+written using triple double quotes.
+"""
+
+# ✅ Let's explore some special operators now:
+
+# ** Power Operator → 2 to the power of 5
+print(2**5)  # Output: 32
+
+# // Floor Division → Gives nearest lower integer
+print(4//3)  # Output: 1
+# Example: 1.333 gets floored down to 1
+
+# Logical Operators: and, or
+print(True and False)  # Output: False
+print(True or False)   # Output: True
+
+# Remember:
+# True  = 1
+# False = 0
+
+# 🧠 Topic 3: Mutability and Immutability
+
+# Think of data types as containers.
+# Some can be changed after creation → Mutable
+# Some cannot be changed once created → Immutable
+
+# Example of Mutable Type: List
+list_count = [1, 2, 3, 4, "Radha"]
+print(list_count[-1])  # Output: Radha (accessed using negative index)
+
+# [] → This is a list container (mutable)
+
+# 🔍 Explanation:
+# Imagine A = KRISHNA
+# A = memory (box), and KRISHNA = values (memory blocks)
+# Each letter has its own index:
+# K=0, R=1, I=2, S=3, H=4, N=5, A=6 (positive indexing)
+# K=-7, R=-6, ..., A=-1 (negative indexing)
+
+# Immutable Example: String
+krishna = "radha"
+print(krishna[-3])  # Output: 'd'
+# But we cannot change a specific letter of a string directly:
+# krishna[-1] = "x"  → ❌ Error!
+
+# Mutable Example: List (we *can* change its values)
+list_count[-1] = "Krishna"
+print(list_count)  # Output: [1, 2, 3, 4, 'Krishna']
+
+# We can also change specific values in between:
+list_count[3] = 20
+print(list_count)  # Output: [1, 2, 3, 20, 'Krishna']
+
+# 🔢 Bitwise Operator Example (Binary Operations)
+# Use bin() to see the binary representation of a number:
+print(bin(10))  # Output: '0b1010'
+
+# Binary Numbers are made of only 1s and 0s.
+# Each position has a fixed value: (8, 4, 2, 1, ...)
+# Start with the largest number ≤ your value and go down.
+# Wherever it fits, put 1; otherwise, put 0.
+# Example:
+# For 10: 8 fits → 1, 4 doesn’t → 0, 2 fits → 1, 1 doesn’t → 0 → 1010
+#for those who still didnt get it here is the bonus explanation 👇
+--------->
+# We're going to convert a number to binary (like 13)
+# Binary number ka matlab – Har number sirf 1 aur 0 se banta hai
+# Har jagah (like 8, 4, 2, 1) ek fixed value hoti hai (power of 2)
+# Sabse bade value se shuru karke, jo fit ho us jagah pe 1 likho, 
+# jo fit na ho us jagah pe 0 likho
+# Aise hum chocolate bharte hain har cup mein 🍫
+
+num = 13
+
+# Convert to binary using bin() function
+print(bin(num))  # Output: 0b1101 (means: 8 + 4 + 0 + 1)
+
+# Let's understand step by step 👇
+
+# Cup values:      8   4   2   1
+# Chocolates:      1   1   0   1   ← 13 = 1101 in binary
+
+# 13 - 8 = 5 → cup of 8 is filled → 1
+# 5 - 4 = 1 → cup of 4 is filled → 1
+# 2 doesn't fit → leave empty → 0
+# 1 - 1 = 0 → cup of 1 is filled → 1
+
+# Final binary of 13 = 1101
+
+# 🎉 Awesome job reaching here! You're slowly mastering Python basics 🌸
