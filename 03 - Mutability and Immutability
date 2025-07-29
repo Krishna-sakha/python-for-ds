@@ -70,6 +70,8 @@ print(list_count)  # Output: [1, 2, 3, 4, 'Krishna']
 list_count[3] = 20
 print(list_count)  # Output: [1, 2, 3, 20, 'Krishna']
 
+"before we dive depper here is the preview of topic operators"
+
 # 🔢 Bitwise Operator Example (Binary Operations)
 # Use bin() to see the binary representation of a number:
 print(bin(10))  # Output: '0b1010'
