@@ -1,3 +1,9 @@
+# 🌟 Always Remember 🌟
+# If you don’t understand anything at first, it’s completely okay!
+# Feel free to Google it or watch a small YouTube tutorial on that specific topic.
+# Just don’t get stuck in "tutorial hell" — the goal is to learn and keep moving forward.
+# We’re here to grow step by step, and our real competition is only with our *past self* 💪
+
 # What is Python?
 
 # Python is a computer programming language which is used to communicate 
